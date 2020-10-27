@@ -73,19 +73,6 @@
             ]
         },
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.146866230121609,
-            "y": 0.5876288659793815,
-            "uniqueID": 496307,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 17
-                }
-            ]
-        },
-        {
             "atomType": "Union",
             "name": "Union",
             "x": 0.6164639850327409,
@@ -124,6 +111,19 @@
                 {
                     "name": "height",
                     "ioValue": 1.3
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.11054172767203513,
+            "y": 0.7624521072796935,
+            "uniqueID": 496307,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 18
                 }
             ]
         },
@@ -194,13 +194,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry2",
-            "ap2Primary": false,
-            "ap1ID": 496307,
-            "ap2ID": 752610
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 145752
@@ -225,9 +218,16 @@
             "ap2Primary": false,
             "ap1ID": 406780,
             "ap2ID": 145752
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry2",
+            "ap2Primary": false,
+            "ap1ID": 496307,
+            "ap2ID": 752610
         }
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "0.1"
 }
